@@ -13,6 +13,10 @@ public class Pessoa {
     private String nome;
     @Column(name = "data_nascimento")
     private LocalDate dataNascimento;
+    @Embedded
+    private Endereco endereco;
+    @Column(unique = true, length = 14) 
+    private String cpf;
     
     public Pessoa() {
 		
@@ -39,6 +43,22 @@ public class Pessoa {
 	}
 	public void setDataNascimento(LocalDate dataNascimento) {
 		this.dataNascimento = dataNascimento;
+	}
+
+	public Endereco getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(Endereco endereco) {
+		this.endereco = endereco;
+	}
+
+	public String getCpf() {
+		return cpf;
+	}
+
+	public void setCpf(String cpf) {
+		this.cpf = cpf;
 	}
 	
     

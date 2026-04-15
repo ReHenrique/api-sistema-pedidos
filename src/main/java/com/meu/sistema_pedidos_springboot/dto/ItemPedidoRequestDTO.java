@@ -1,4 +1,4 @@
-package dto;
+package com.meu.sistema_pedidos_springboot.dto;
 
 import com.meu.sistema_pedidos_springboot.model.Pedido;
 import com.meu.sistema_pedidos_springboot.model.Produto;
