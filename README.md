@@ -35,7 +35,7 @@ Esta é a maneira mais rápida de testar a aplicação em qualquer máquina, sem
 1. Certifique-se de ter o **Docker Desktop** rodando na sua máquina.
 2. Tenha um banco de dados **MariaDB** rodando na porta `3306` (com um banco criado, ex: `loja_web`).
 3. Clone este repositório:
-   `git clone https://github.com/seu-usuario/sistema-pedidos-springboot.git`
+   `git clone https://github.com/ReHenrique/api-sistema-pedidos.git`
 4. Na pasta raiz do projeto, gere o pacote da aplicação:
    `.\mvnw clean package -DskipTests`
 5. Construa a imagem Docker:
